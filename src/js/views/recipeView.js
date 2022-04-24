@@ -2,7 +2,7 @@ import View from './view.js';
 
 // import icons from '../img/icons.svg'; // parcel 1
 import icons from 'url:../../img/icons.svg';
-import { Fraction } from 'fractional';
+import { Fraction } from 'fraction.js';
 import { mark } from 'regenerator-runtime';
 
 class RecipeView extends View {
@@ -134,7 +134,7 @@ class RecipeView extends View {
            <use href="${icons}#icon-check"></use>
          </svg>
          <div class="recipe__quantity">${
-           img.quantity ? new Fraction(img.quantity).toString() : ''
+           img.quantity ? new Fraction(img.quantity).toFraction(true) : ''
          }</div>
          <div class="recipe__description">
            <span class="recipe__unit">${img.unit}</span>${img.description}</div>

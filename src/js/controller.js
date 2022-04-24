@@ -142,5 +142,3 @@ init();
 const clearBookmarks = function () {
   localStorage.clear();
 };
-
-console.log('working, controller.js');
