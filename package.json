@@ -16,7 +16,7 @@
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.4.0",
-    "parcel": "^2.4.0",
+    "parcel": "^2.6.0",
     "querystring-es3": "^0.2.1",
     "url": "^0.11.0"
   }
